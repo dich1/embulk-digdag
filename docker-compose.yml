@@ -5,6 +5,5 @@ services:
     volumes:
       - .:/embulk_digdag
     tty: true
-    command: /bin/bash
     environment:
       TZ: Asia/Tokyo
